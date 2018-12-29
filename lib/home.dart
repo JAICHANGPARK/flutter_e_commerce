@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ecommerce/home_drawer.dart';
+import 'package:carousel_pro/carousel_pro.dart';
+
 
 class HomePage extends StatefulWidget {
   @override
