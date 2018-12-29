@@ -15,6 +15,11 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.red,
         centerTitle: true,
         title: Text("Shop App"),
+        actions: <Widget>[
+          IconButton(icon: Icon(Icons.search, color: Colors.white,),onPressed: (){},),
+          IconButton(icon: Icon(Icons.shopping_cart, color: Colors.white,),onPressed: (){},),
+
+        ],
       ),
 
       body: Center(
