@@ -6,7 +6,7 @@ A new Flutter application.
   <table>
     <tr>
       <td style="text-align: center">
-        <img src="https://github.com/JAICHANGPARK/flutter_e_commerce/tree/master/screen%20shot" width="200">
+        <img src="https://github.com/JAICHANGPARK/flutter_e_commerce/blob/master/screen%20shot/device-2018-12-29-132129.png" width="200">
       </td>
       <td style="text-align: center">
         <img src="https://github.com/JAICHANGPARK/flutter_e_commerce/blob/master/screen%20shot/device-2018-12-29-132437.png" width="200">
