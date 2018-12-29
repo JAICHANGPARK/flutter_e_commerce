@@ -29,6 +29,8 @@ class _HomePageState extends State<HomePage> {
               style: TextStyle(color: Colors.white),
             )),
       ),
+
+      drawer: Drawer(),
     );
   }
 }
