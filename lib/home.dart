@@ -9,8 +9,28 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+
+
   @override
   Widget build(BuildContext context) {
+    Widget image_carousel = Container(
+      height: 200.0,
+      child: Carousel(
+        boxFit: BoxFit.cover,
+        images: [
+          AssetImage("assets/main_01.jpg"),
+          AssetImage("assets/main_02.jpg"),
+          AssetImage("assets/main_03.jpg"),
+          AssetImage("assets/main_04.jpg"),
+        ],
+        autoplay: false,
+        animationCurve: Curves.fastOutSlowIn,
+        animationDuration: Duration(milliseconds: 1000),
+
+      ),
+    );
+
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.red,
@@ -33,12 +53,10 @@ class _HomePageState extends State<HomePage> {
           ),
         ],
       ),
-      body: Center(
-        child: InkWell(
-            child: Text(
-          "Hi?",
-          style: TextStyle(color: Colors.white),
-        )),
+      body: ListView(
+        children: <Widget>[
+          image_carousel,
+        ],
       ),
       drawer: myDrawer
     );
