@@ -33,6 +33,7 @@ class _HomePageState extends State<HomePage> {
 
     return Scaffold(
       appBar: AppBar(
+        elevation: 0.0,
         backgroundColor: Colors.red,
         centerTitle: true,
         title: Text("Shop App"),
