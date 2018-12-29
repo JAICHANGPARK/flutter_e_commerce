@@ -24,12 +24,12 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return GridView.count(crossAxisCount: 2,
-    children: <Widget>[
-      Text("One"),
-      Text("Two"),
-      Text("Threee"),
-    ],);
+    return Container(
+      color: Colors.pink,
+      child: Center(
+        child: Text("Hi?", style: TextStyle(color: Colors.white),),
+      ),
+    );
   }
 }
 
