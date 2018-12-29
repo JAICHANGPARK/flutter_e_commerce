@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -16,24 +14,36 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
         title: Text("Shop App"),
         actions: <Widget>[
-          IconButton(icon: Icon(Icons.search, color: Colors.white,),onPressed: (){},),
-          IconButton(icon: Icon(Icons.shopping_cart, color: Colors.white,),onPressed: (){},),
-
+          IconButton(
+            icon: Icon(
+              Icons.search,
+              color: Colors.white,
+            ),
+            onPressed: () {},
+          ),
+          IconButton(
+            icon: Icon(
+              Icons.shopping_cart,
+              color: Colors.white,
+            ),
+            onPressed: () {},
+          ),
         ],
       ),
-
       body: Center(
         child: InkWell(
             child: Text(
-              "Hi?",
-              style: TextStyle(color: Colors.white),
-            )),
+          "Hi?",
+          style: TextStyle(color: Colors.white),
+        )),
       ),
-
       drawer: Drawer(
         child: ListView(
           children: <Widget>[
-            UserAccountsDrawerHeader(accountName: Text("Dreamwalker"), accountEmail: null),
+            UserAccountsDrawerHeader(
+              accountName: Text("Dreamwalker"),
+              accountEmail: Text("aristojeff@gmail.com"),
+            ),
           ],
         ),
       ),
