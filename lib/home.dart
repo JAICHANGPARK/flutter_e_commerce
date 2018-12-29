@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
       drawer: Drawer(
         child: ListView(
           children: <Widget>[
-            
+            UserAccountsDrawerHeader(accountName: Text("Dreamwalker"), accountEmail: null),
           ],
         ),
       ),
