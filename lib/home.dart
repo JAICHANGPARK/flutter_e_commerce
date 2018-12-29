@@ -41,6 +41,12 @@ class _HomePageState extends State<HomePage> {
         child: ListView(
           children: <Widget>[
             UserAccountsDrawerHeader(
+              currentAccountPicture: GestureDetector(
+                child: CircleAvatar(
+                  backgroundColor: Colors.grey,
+                ),
+
+              ),
               accountName: Text("Dreamwalker"),
               accountEmail: Text("aristojeff@gmail.com"),
             ),
