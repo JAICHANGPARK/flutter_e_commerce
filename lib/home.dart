@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
           AssetImage("assets/main_03.jpg"),
           AssetImage("assets/main_04.jpg"),
         ],
-        autoplay: false,
+        autoplay: true,
         animationCurve: Curves.fastOutSlowIn,
         animationDuration: Duration(milliseconds: 1000),
 
