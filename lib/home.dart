@@ -56,12 +56,18 @@ class _HomePageState extends State<HomePage> {
           ),
         ],
       ),
+      drawer: myDrawer,
+
       body: ListView(
         children: <Widget>[
           image_carousel,
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text('Categories'),
+          ),
         ],
       ),
-      drawer: myDrawer
+
     );
   }
 }

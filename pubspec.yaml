@@ -43,6 +43,12 @@ flutter:
     - assets/main_02.jpg
     - assets/main_03.jpg
     - assets/main_04.jpg
+    - assets/cats/accessories.png
+    - assets/cats/dress.png
+    - assets/cats/formal.png
+    - assets/cats/informal.png
+    - assets/cats/jeans.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
